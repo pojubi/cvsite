@@ -12,32 +12,76 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <nav>
+          <ul className='flex justify-between space-x-8'>
+            <li><a href="#" className='text-3xl text-sky-700'>Contact</a></li>
+            <li><a href="#" className='text-3xl text-sky-700'>Projects</a></li>
+          </ul>
+        </nav>
+
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to My CV website!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Je m'appele Abiodun Adepoju, je suis un developpeur web et web mobile et j'ai 28ans .
+        </p>
+        <p className={styles.description}>
+          Project : Trouver un emploi en cdi ou cdd aﬁn d'acquerir une experience professionel <br/>
+          <i>La polyvalence, la rigor, l'eﬃcacité et la persévérance</i>
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>Diplomes et formations &rarr;</h2>
+            <p>Titre professionnel (RNCP niveau 5) - Developpeur web et web mobile / Via Formation Le Mans, France</p>
+            <p>Bac S / Sacred Heart College Nigeria</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Atouts &rarr;</h2>
+            <ul>
+              <li>Bon sens relationnel</li>
+              <li>Travailleur d'equipe</li>
+              <li>Respecteux</li>
+              <li>Discret</li>
+              <li>Méthodique</li>
+              <li>Rigoreux</li>
+              <li>Adaptable</li>
+              <li>Ponctuel</li>
+              <li>Polyvalent</li>
+              <li>Autonome</li>
+              <li>Solide culture web</li>
+              <li>A l’écoute</li>
+              <li>Persevearance</li>
+              <li>Curieux d'apprendre</li>
+            </ul>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Compétences &rarr;</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>React native</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>Django</li>
+              <li>Django-REST-Framework</li>
+              <li>Material UI</li>
+              <li>Tailwind CSS</li>
+              <li>SQL et MySQL</li>
+              <li>Wordpress</li>
+              <li>Ajax</li>
+            </ul>
           </a>
 
           <a
