@@ -24,11 +24,11 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Je m'appele Abiodun Adepoju, je suis un developpeur web et web mobile et j'ai 28ans .
+          Je mappele Abiodun Adepoju, je suis un developpeur web et web mobile et jai 28ans .
         </p>
         <p className={styles.description}>
-          Project : Trouver un emploi en cdi ou cdd aﬁn d'acquerir une experience professionel <br/>
-          <i>La polyvalence, la rigor, l'eﬃcacité et la persévérance</i>
+          Project : Trouver un emploi en cdi ou cdd aﬁn dacquerir une experience professionel <br/>
+          <i>La polyvalence, la rigor, leﬃcacité et la persévérance</i>
         </p>
 
         <div className={styles.grid}>
@@ -42,7 +42,7 @@ export default function Home() {
             <h2>Atouts &rarr;</h2>
             <ul>
               <li>Bon sens relationnel</li>
-              <li>Travailleur d'equipe</li>
+              <li>Travailleur dequipe</li>
               <li>Respecteux</li>
               <li>Discret</li>
               <li>Méthodique</li>
@@ -54,7 +54,7 @@ export default function Home() {
               <li>Solide culture web</li>
               <li>A lécoute</li>
               <li>Persevearance</li>
-              <li>Curieux d'apprendre</li>
+              <li>Curieux dapprendre</li>
             </ul>
           </a>
 
