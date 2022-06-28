@@ -52,7 +52,7 @@ export default function Home() {
               <li>Polyvalent</li>
               <li>Autonome</li>
               <li>Solide culture web</li>
-              <li>A l’écoute</li>
+              <li>A lécoute</li>
               <li>Persevearance</li>
               <li>Curieux d'apprendre</li>
             </ul>
