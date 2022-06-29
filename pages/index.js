@@ -19,17 +19,18 @@ export default function Home() {
           </ul>
         </nav>
 
-        <h1 className={styles.title}>
+        <h1 className='text-4xl font-extrabold my-6'>
           Welcome to My CV website!
         </h1>
 
-        <p className={styles.description}>
+        <p className='text-2xl my-6 font-semibold'>
           Je mappele Abiodun Adepoju, je suis un developpeur web et web mobile et jai 28ans .
         </p>
-        <p className={styles.description}>
-          Project : Trouver un emploi en cdi ou cdd aﬁn dacquerir une experience professionel <br/>
-          <i>La polyvalence, la rigor, leﬃcacité et la persévérance</i>
+        <p className='text-2xl'>
+          <span className='font-bold'>Project</span> : Trouver un emploi en cdi ou cdd aﬁn dacquerir une experience professionel <br/>
+          
         </p>
+        <i className='text-lg'>La polyvalence, la rigor, leﬃcacité et la persévérance</i>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -88,10 +89,14 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Centres dintérêt &rarr;</h2>
+            <ul>
+              <li>Informatique</li>
+              <li>Technologie</li>
+              <li>Sport</li>
+              <li>Musique</li>
+              <li>Voyages</li>
+            </ul>
           </a>
         </div>
       </main>
